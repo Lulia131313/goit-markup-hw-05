@@ -491,6 +491,9 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
+  height: 40px;
+}
+.footer-label {
 }
 .footer-form-input {
   width: 264px;
@@ -513,7 +516,7 @@ img {
 
 .btn-footer {
   display: inline-flex;
-  padding: 24px 8px;
+
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -524,10 +527,14 @@ img {
   color: var(--wigth-color);
   text-align: center;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
 }
 .footer-btn-icon {
   margin-left: 16px;
-  width: 24px;
 
   fill: var(--wigth-color);
 }
