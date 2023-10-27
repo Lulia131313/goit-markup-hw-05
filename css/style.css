@@ -546,6 +546,7 @@ img {
 /*=============/FOOTER=========*/
 /*=============Modal window======*/
 .backdrop {
+  padding: 72px 24px 24px 24px;
   position: fixed;
   top: 0;
   left: 0;
@@ -566,7 +567,6 @@ img {
   visibility: hidden;
 }
 .modal {
-  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -611,6 +611,7 @@ img {
 }
 .modal-caption {
   display: flex;
+  text-align: center;
   justify-content: center;
   margin-bottom: 16px;
   padding-top: 48px;
